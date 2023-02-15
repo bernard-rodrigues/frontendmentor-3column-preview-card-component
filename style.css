@@ -1,0 +1,28 @@
+:root{
+    --brightOrange: hsl(31, 77%, 52%);
+    --darkCyan: hsl(184, 100%, 22%);
+    --veryDarkCyan: hsl(179, 100%, 13%);
+    --transparentWhite: hsla(0, 0%, 100%, 0.75); /* Paragraphs*/ 
+    --veryLightGray: hsl(0, 0%, 95%); /* background, headings, buttons */
+}
+
+/*
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+*/
+
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.box{
+    height: 448px;
+    width: 275px;
+    background-color: var(--brightOrange);
+}
+
+.box h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+}
