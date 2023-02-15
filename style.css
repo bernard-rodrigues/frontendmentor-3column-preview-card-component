@@ -11,18 +11,110 @@ font-family: 'Big Shoulders Display', cursive;
 font-family: 'Lexend Deca', sans-serif;
 */
 
+.border{
+    border: 1px solid red;
+}
+
+*{
+    margin: 0;
+}
+
+button{
+	border: none;
+	padding: 0;
+}
+
 body{
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
+    color: var(--transparentWhite);
+    font-size: 15px;
+    position: relative;
+    height: 100vh;
+}
+
+#main{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 .box{
-    height: 448px;
-    width: 275px;
-    background-color: var(--brightOrange);
+    height: calc(500px - 46px - 44px);
+    width: calc(307px - 48px - 50px);
+    padding: 46px 48px 44px 50px;
+    position: relative;
 }
 
 .box h1{
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
+    margin-top: 37px;
+    margin-bottom: 30px;
+    font-size: 38px;
+}
+
+.box p{
+    line-height: 25px;
+}
+
+#box-sedan{
+    background-color: var(--brightOrange);
+    border-radius: 10px 0 0 10px;
+}
+
+#box-sedan button{
+    color: var(--brightOrange);
+}
+
+#box-suvs{
+    background-color: var(--darkCyan);
+}
+
+#box-suvs button{
+    color: var(--darkCyan);
+}
+
+#box-luxury{
+    background-color: var(--veryDarkCyan);
+    border-radius: 0 10px 10px 0;
+}
+
+#box-luxury button{
+    color: var(--veryDarkCyan);
+}
+
+.box button{
+    background-color: var(--veryLightGray);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    height: 48px;
+    padding: 0 32px;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 44px;
+    transition: padding 0.3s;
+}
+
+.box button:hover{
+    cursor: pointer;
+    filter: brightness(115%);
+    padding: 0 36px;
+}
+
+footer{
+    background-color: black;
+    padding: 3px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+footer a{
+    color: var(--veryLightGray);
+    font-weight: 500;
+    text-decoration: none;
 }
