@@ -31,6 +31,7 @@ body{
     font-size: 15px;
     position: relative;
     height: 100vh;
+    background-color: var(--veryLightGray);
 }
 
 #main{
@@ -51,6 +52,7 @@ body{
 .box h1{
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
+    color: var(--veryLightGray);
     margin-top: 37px;
     margin-bottom: 30px;
     font-size: 38px;
@@ -58,6 +60,7 @@ body{
 
 .box p{
     line-height: 25px;
+    color: var(--transparentWhite);
 }
 
 #box-sedan{

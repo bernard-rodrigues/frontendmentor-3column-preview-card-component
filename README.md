@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/simple-solution-using-the-basic-concepts-kxle5z0En8)
 - [Live Site URL](https://frontendmentor-3column-preview-card-component.vercel.app/)
 
 ## My process
