@@ -111,10 +111,53 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100vw;
+    font-size: 15px;
 }
 
 footer a{
     color: var(--veryLightGray);
     font-weight: 500;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 600px){
+    #main{
+        flex-direction: column;
+        transform: translateX(-50%) translateY(0);
+        top: 88px;
+    }
+
+    .box{
+        width: 328px;
+        height: 440px;
+    }
+
+    .box:last-child{
+        margin-bottom: 88px;
+    }
+
+    .box h1{
+        margin-top: 28px;
+        margin-bottom: 25px;
+    }
+
+    .box button{
+        bottom: 47px;
+    }
+
+    .box button:hover{
+        transform: scale(1);
+    }
+
+    #box-sedan{
+        border-radius: 10px 10px 0 0;
+    }
+
+    #box-luxury{
+        border-radius: 0 0 10px 10px;
+    }
+
+    footer{
+        font-size: 11px;
+    }
 }
