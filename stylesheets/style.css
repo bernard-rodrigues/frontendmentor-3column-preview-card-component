@@ -42,8 +42,8 @@ body{
 }
 
 .box{
-    height: calc(500px - 46px - 44px);
-    width: calc(307px - 48px - 50px);
+    height: 500px;
+    width: 307px;
     padding: 46px 48px 44px 50px;
     position: relative;
 }
@@ -95,13 +95,13 @@ body{
     border-radius: 25px;
     position: absolute;
     bottom: 44px;
-    transition: padding 0.3s;
+    transition: transform 0.3s;
 }
 
 .box button:hover{
     cursor: pointer;
     filter: brightness(115%);
-    padding: 0 36px;
+    transform: scale(1.05);
 }
 
 footer{
